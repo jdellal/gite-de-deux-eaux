@@ -864,8 +864,9 @@ p { color: var(--c-text-muted); }
 .platforms__grid {
   display: grid;
   gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 320px));
+  justify-content: center;
 }
-@media (min-width: 540px) { .platforms__grid { grid-template-columns: repeat(2, 1fr); } }
 
 .platform-card {
   background: var(--c-bg-card);
