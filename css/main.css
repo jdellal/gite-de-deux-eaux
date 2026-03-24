@@ -86,7 +86,7 @@ p { color: var(--c-text-muted); }
   margin-bottom: .5rem;
 }
 .section__header h2 { margin-bottom: .75rem; }
-.section__header p { max-width: 540px; margin: 0 auto; }
+.section__header p { max-width: 630px; margin: 0 auto; }
 
 /* ===== BUTTONS ===== */
 .btn {
